@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Registro de productos</title>
+        <link rel="stylesheet" href="css/estilo.css"/>
+    </head>
+    <body>
+        <h1><u>Registrar un producto</u></h1>
+        <form action="resultadofinal-form.html" method="post">
+            <ul>
+                <li><label>Código: </label>
+                <input type="text" id="codigo" name="producto"/></li>
+                <br>
+                <li><label>Descripción: </label>
+                <input type="text" id="descripcion" name="producto"/></li>
+                <br>
+                <li><label>Código de barras: </label>
+                <input type="text" id="codigo-barra" name="producto"/></li>
+                <br>
+                <li><label>Precio unitario: </label>
+                <input type="text" id="precio-unitario" name="producto"/></li>
+                <br>
+                <li><label>Stock: </label>
+                <input type="text" id="stock" name="producto"/></li>
+                <br>
+                <li><label>Proveedor: </label>
+                <input type="text" id="proveedor" name="producto"/></li>
+                <br>
+                <li><label>Estado: </label>
+                <input type="checkbox" id="estado" name="producto"/>Activo</li>
+                <br>
+                <li><label>Categoría: </label><select id="categoria">
+                    <option value="0">Seleccione una categoría</option>
+                    <option value="1">Categoría 1</option>
+                    <option value="2">Categoría 2</option>
+                    <option value="3">Categoría 3</option>
+                    <option value="4">Categoría 4</option>
+                </select></li>
+            </ul>
+            <input type="submit" id="boton-guardar" value="Guardar"/>
+            <button id="btn-cancelar"><a href="index.html">Cancelar</a></button></p>
+        </form>
+        
+    </body>
+</html>
